@@ -1,0 +1,19 @@
+# Максимум різних блоків, які можна дозволити ламати в ОДНОМУ регіоні
+max-blocks-per-region: 20
+
+messages:
+  no-permission: "&cТільки для OP."
+  only-player: "&cКоманду можна виконувати лише в грі."
+  usage: "&6Використання: &f/lrg add [регіон] block <блок> &6| &f/lrg remove [регіон] block <блок> &6| &f/lrg list [регіон] &6| &f/lrg reload"
+  no-region-here: "&cТут немає регіону WorldGuard. Вкажи його назву: /lrg {sub} <регіон> block <блок>"
+  many-regions: "&cТут кілька регіонів з однаковим пріоритетом. Вкажи назву регіону явно."
+  region-not-found: "&cРегіон &f{region}&c не знайдено у світі &f{world}&c."
+  bad-block: "&c«{block}» не підходить: треба назву звичайного блока, наприклад stone."
+  added: "&aТепер у регіоні &f{region}&a можна ламати: &f{block} &7({count}/{max})"
+  already: "&7У регіоні &f{region}&7 &f{block}&7 уже дозволено."
+  limit: "&cУ регіоні &f{region}&c уже {max} блоків (максимум). Спершу прибери якийсь: /lrg remove"
+  removed: "&aУ регіоні &f{region}&a більше не можна ламати: &f{block}"
+  not-in-list: "&7У регіоні &f{region}&7 блок &f{block}&7 не був дозволений."
+  list: "&6Регіон &f{region}&6: можна ламати: &f{blocks}"
+  list-empty: "&7У регіоні &f{region}&7 немає дозволених блоків."
+  reloaded: "&aПерезавантажено."
