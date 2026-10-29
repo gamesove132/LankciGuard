@@ -1,0 +1,18 @@
+name: LankciRegions
+version: 1.0.0
+main: com.lankciworld.regions.LankciRegionsPlugin
+api-version: '1.21'
+description: Дозволяє ламати вибрані блоки в регіонах WorldGuard.
+author: kostyanchu_org
+depend: [WorldGuard]
+softdepend: [AuthMe]
+
+commands:
+  lrg:
+    description: Керування блоками, які можна ламати в регіонах WorldGuard
+    usage: /lrg <add|remove|list|reload> ...
+
+permissions:
+  lankciregions.admin:
+    description: Доступ до /lrg
+    default: op
